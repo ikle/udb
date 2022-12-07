@@ -8,7 +8,7 @@
 
 #include <stdlib.h>
 
-#include "udb-map.h"
+#include <udb/udb-map.h>
 
 int udb_map_search (struct udb_map *o, unsigned size)
 {

@@ -8,7 +8,7 @@
 
 #include <string.h>
 
-#include "udb-page.h"
+#include <udb/udb-page.h>
 
 unsigned udb_page_alloc (struct udb_page *o, unsigned size, uint16_t *avail)
 {

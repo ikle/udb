@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "udb-map.h"
+#include <udb/udb-map.h>
 
 static void udb_map_show_head (struct udb_map *o, int indent)
 {
